@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    
+    
+    
+    
+    <style>
+        body{
+            margin-right: 50px;
+            box-sizing: border-box;
+            width: 100%;
+        }
+
+        .main-containder{
+            display: flex;
+            flex-direction: column;
+                 
+        }
+        .item{
+            display: flex;
+            width: 100%;
+            margin-bottom: -20px;
+            justify-content: center;
+        }
+        .card {
+
+            width: 150px;
+            height: 150px;
+            margin: 20px;
+            border: 3px solid rgb(237,62,68);
+            box-shadow: -10px 10px  0px 1px rgb(237,62,68);
+       
+        }
+        .Grande{
+            flex-basis: 300px;
+            width: 200px;
+            color: white;
+            height: 150px;
+            margin: 20px;
+            border: 3px solid rgb(237,62,68);
+            box-shadow: -10px 10px  0px 1px rgb(237,62,68);
+        }
+    
+
+    </style>
+
+    
+</head>
+<body>
+    <main class="main-containder">
+        
+        <div class="item">
+            <div class="card"></div>
+        
+            <div class="card"></div>
+        
+            <div class="card"></div>
+
+            <div class="card" ></div>
+        
+            <div class="Grande"></div>
+        </div>
+
+        <div class="item">
+            <div class="Grande"></div>
+        
+            <div class="Grande"></div>
+        
+            <div class="card" ></div>
+        
+            <div class="card" ></div>
+       
+        </div >
+        <div class="item">  
+
+            <div class="card"></div>
+
+            <div class="card"></div>
+    
+            <div class="Grande"></div>
+        
+            <div class="Grande" ></div>
+        </div>
+        
+
+        
+    
+        
+    </main>
+   
+    
+</body>
+</html>

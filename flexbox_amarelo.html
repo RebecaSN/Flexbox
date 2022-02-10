@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caixas em piramide</title>
+    <style>
+        body{
+            box-sizing: border-box;
+        }
+        .conteinder {
+            display: flex;
+            justify-content: space-between;
+            flex-direction:column;
+            justify-content: center;
+            margin: 10px;
+            
+
+        }
+        div{
+           display: flex;
+        }
+        .linha {
+            background-color: rgb(255,215,0);
+            width: 100px;
+            height: 60px;
+            justify-content: center;
+            align-items: center;
+            flex-grow: 1;
+            margin-top: 20px;
+            color:white;
+            font-size: 40px;
+        }
+        
+        .linha + .linha{
+            margin-left: 6px;
+
+        }
+        
+
+    </style>
+</head>
+<body>
+    <main class="conteinder">
+        <div class="item">
+            <div class="linha">1</div>
+        </div>
+
+        <div class="item">
+            <div class="linha">2</div>
+            <div class="linha">3</div>
+        </div>
+
+        <div class="item">
+            <div class="linha">4</div>
+            <div class="linha">5</div>
+            <div class="linha">6</div>
+        </div>
+
+        <div class="item">
+            <div class="linha">7</div>
+           <div class="linha">8</div>
+           <div class="linha">9</div>
+           <div class="linha">10</div>
+        </div>
+
+        <div class="item">
+            <div class="linha">11</div>
+            <div class="linha">12</div>
+            <div class="linha">13</div>
+            <div class="linha">14</div>
+            <div class="linha">15</div>
+            <div class="linha">16</div>
+        </div>
+
+        <div class="item">
+            <div class="linha">17</div>
+            <div class="linha">18</div>
+            <div class="linha">19</div>
+            <div class="linha">20</div>
+            <div class="linha">21</div>
+            <div class="linha">22</div>
+            <div class="linha">23</div>
+            <div class="linha">24</div>
+            <div class="linha">25</div>
+            <div class="linha">26</div>
+            <div class="linha">27</div>
+            <div class="linha">28</div>
+        </div>
+    </main>
+    
+</body>
+</html>
